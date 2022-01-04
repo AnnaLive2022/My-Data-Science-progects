@@ -37,7 +37,7 @@ def score_game(game_v3) -> int:
         random_predict ([type]): функция угадывания
     Returns:
         int: среднее количество попыток
-    """
+    """conda env export > environment.yaml
 
     count_ls = []  # список для сохранения количества попыток
     #np.random.seed(1)  # фиксируем сид для воспроизводимости
